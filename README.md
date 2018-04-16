@@ -16,7 +16,9 @@ create view articlesviews as select title,author, count(*) as views from article
 ```
 
 Question 2:
-```create view authorviews as select name, sum(articlesviews.views) as views from articlesviews join authors on author=id group by name order by views desc;```
+```
+create view authorviews as select name, sum(articlesviews.views) as views from articlesviews join authors on author=id group by name order by views desc;
+```
 
 Quesrion 3:
 ```create view dates as select status, cast(time as DATE) from log;
