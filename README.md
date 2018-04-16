@@ -7,7 +7,7 @@ for example
 ```
 Query_1 = 'select * from articlesviews limit 3'
 ```
-This example contains the query statement that should be executed once the program is called
+This example contains the query statement that should be executed once the program is called.
 ##Views Created Query Statements:
 Question 1
 ```
