@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 import psycopg2
 
 Query_1 = 'select * from articlesviews limit 3'
